@@ -3,7 +3,7 @@ include 'class/content.php';
 $controller = new Content();
 include 'includes/header.php';
 
-$result  = $controller->get_allejobs();
+$result = $controller->get_allejobs();
 ?>
 
 <div class="header-top"></div>
@@ -16,11 +16,9 @@ $result  = $controller->get_allejobs();
     </div>
 </div>
 
-<div class="container-fluid no-padding-right no-padding-left" >
+<div class="container-fluid no-padding-right no-padding-left">
     <div class="accordion">
         <?php
-	 
-		 
         $i = 0;
         foreach ($result as $value) { ?>
             <div class="accordion-section">
@@ -32,11 +30,12 @@ $result  = $controller->get_allejobs();
                     </span>
                 </div>
                 <div id="joblist-<?= $i ?>" class="accordion-section-content">
-                      <?= $value['beschreibung'] ?>
-                </div> 
-            </div> 
-    <?php $i++; } ?>
+                    <?= $value['beschreibung'] ?>
+                </div>
+            </div>
+            <?php $i++;
+        } ?>
     </div>
-</div>	
+</div>
 
 <?php include 'includes/footer.php'; ?>
