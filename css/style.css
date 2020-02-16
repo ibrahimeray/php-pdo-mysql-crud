@@ -1,0 +1,163 @@
+/* 
+    Author     : igueclue
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.container-pages {
+    background: transparent url('../img/Teil4_02_Background.png')  center;
+    height: auto;
+    
+}
+.header-login{
+    margin-top: 200px;
+}
+.error {
+    color: red;
+}
+.header-text {
+    text-align: right;
+    margin-bottom: 15px;
+}
+.admintitel{
+    margin-right: 100px;
+}
+.header-top{
+    background: #333;
+    padding: 5px;
+}
+.header-login-btn{
+    margin-top: 25px;
+    text-align: right;
+}
+
+.no-padding-right{
+    padding-right: 0px;
+}
+.no-padding-left{
+    padding-left: 0px;
+}
+.bold{
+    font-weight: bold;
+}
+
+/** LINK BUTTON  **/
+.btn-img {
+    background-position: 0 4px;
+    background-repeat: no-repeat;
+    background-size: 13px 13px;
+    padding-left: 20px;
+}
+.hinzufugen{
+    background-image: url(../img/Teil3_01_Add_Job.png);
+}
+
+.edit-content {
+     background-image: url(../img/Teil3_02_Background.png);
+    
+}
+
+.editieren{
+    background-image: url(../img/Teil3_01_Bearbeiten_Job.png);
+}
+.hinzufugen-text{
+    padding-top: 25px;
+    padding-right: 15px;
+}
+.logout{
+    background-image: url(../img/Teil3_01_Logout.png);
+}
+.abbrechen{
+    background-image: url(../img/Teil3_02_Cancel_Job.png);
+}
+.speichern{
+    background-image: url(../img/Teil3_02_Save_Job.png);
+}
+
+
+
+/******** BUTTON IMAGES ****************/
+.button-img-edit{
+
+}
+a {
+    text-decoration: none;
+}
+a:hover, a:focus{
+    color: #333;
+    text-decoration: none;	
+}
+.btn-link:hover, .btn-link,.btn-link:focus {
+    color:#333;
+}
+
+
+/** FORMULAR STYLE **/
+.form-control {
+    margin-bottom: 15px;
+    display: block;
+    width: 100%;
+    height: 24px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 0px solid #ccc;
+    border-radius: 0px; 
+
+}
+
+
+/** ACCORDION **/
+.accordion-background{
+    text-decoration: none;
+    padding:15px;
+}
+
+.accordion-section {
+    background: url('../img/Teil4_01_Background_Job.png')   ;
+    border-bottom: 1px solid #333;  
+    -moz-background-size: contain;
+    -webkit-background-size: contain;
+    background-size: contain;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+    -moz-transform: scale(1,1);
+    -webkit-transform: scale(1,1);
+    transform: scale(1,1);
+}
+.accordion-section:last-child {
+    border-bottom:none;
+}
+.accordion-section-title {
+    width: 100%;  
+    font-size: 18px;
+    padding: 15px;
+    color: #333;
+    text-decoration: none;  
+}
+.accordion-section-content {
+    padding:15px;
+    display:none;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+a.accordion-section-title:hover{
+    color: #333;
+    text-decoration: none;
+}
+.change-icon {
+    padding-right: 45px;
+    padding-top: 35px;
+    background: transparent url('../img/Teil3_01_Bearbeiten_Job.png') no-repeat center left;
+}
+.change-icon:hover{
+    text-decoration: none;
+}
